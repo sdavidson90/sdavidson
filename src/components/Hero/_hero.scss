@@ -1,0 +1,19 @@
+.hero {
+  background-image: url("../assets/hero/hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  color: $color-white;
+}
+@include medium {
+  .hero__title {
+    padding: 13.5rem 1.5rem;
+    font-weight: 700;
+  }
+}
+@include large {
+  .hero__title {
+    padding-left: 11.25rem;
+  }
+}

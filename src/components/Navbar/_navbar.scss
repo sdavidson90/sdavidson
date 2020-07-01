@@ -1,0 +1,37 @@
+.nav {
+  // background-color: $color-prime;
+  background-color: black;
+  font-weight: 600;
+  position: sticky;
+  &__right-item:hover {
+    color: #1c77c3;
+  }
+}
+
+@include medium {
+  .nav {
+    padding: 0 1.5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__right {
+      display: flex;
+      flex-direction: row;
+      list-style: none;
+      &-item {
+        margin-left: 5rem;
+        color: $color-white;
+        text-decoration: none;
+      }
+    }
+  }
+}
+@include large {
+  .nav {
+    padding: 0 11.25rem;
+    &__logo {
+      height: 175px;
+    }
+  }
+}
