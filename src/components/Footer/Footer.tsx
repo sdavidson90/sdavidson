@@ -2,7 +2,11 @@ import React from "react";
 
 const Footer: React.FC = () => {
   return (
-    <div>
+    <div className="footer">
+      <h1>placeholder</h1>
+      <h1>placeholder</h1>
+      <h1>placeholder</h1>
+      <h1>placeholder</h1>
       <h1>placeholder</h1>
     </div>
   );
